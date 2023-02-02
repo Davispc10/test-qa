@@ -9,11 +9,11 @@ Vamos ao teste!
 
 ## Carinho de compras
 
-Queremos que faça uma automação end-to-end de um fluxo de compras. Para isso você poderá usar alguma ferramenta que auxilie nisso para automatização no fluxo como o Cypress.
+Queremos que faça uma automação end-to-end de um fluxo de compras. Para isso você poderá usar alguma ferramenta que auxilie nisso para automatização no fluxo como o Cypress por exemplo.
 
 Site: https://www.saucedemo.com
 
-💻 Funcionalidades
+💻 Fluxo:
 - O script terá que acessar a página;
 - Fazer o login utilizando o usuário padrão (standard_user);
 - Adicionar ao carrinho a mochila (Backpack) e a blusa preta (Bolt T-Shirt);
@@ -24,10 +24,9 @@ Site: https://www.saucedemo.com
 - Fazer o checkout, preencher as informações;
 - Finalizar o pedido e voltar a página principal dos itens.
 
-💻 tecnologia
+💻 Tecnologia
 - Ferramenta end-to-end (De preferência Cypress);
-- Documentação;
-- Javascript.
+- Documentação.
 
 ## Por onde começo?
 Primeiramente, você pode fazer um fork desse repositório aqui, para sua conta do Github, depois disso crie uma branch nova com o seu nome (ex: nome_sobrenome), para podermos indentificá-lo.
