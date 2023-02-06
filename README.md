@@ -15,6 +15,8 @@ Site: https://www.saucedemo.com
 
 💻 Fluxo:
 - O script terá que acessar a página;
+- Realizar login com username incorreto;
+- Realizar com password incorreto;
 - Fazer o login utilizando o usuário padrão (standard_user);
 - Adicionar ao carrinho a mochila (Backpack) e a blusa preta (Bolt T-Shirt);
 - Ir no carrinho;
@@ -26,7 +28,9 @@ Site: https://www.saucedemo.com
 
 💻 Tecnologia
 - Ferramenta end-to-end (De preferência Cypress);
-- Documentação.
+- Documentação;
+- Utilização de boas práticas como page objects e uso do cucumber serão um 
+diferencial na análise da automação.
 
 ## Por onde começo?
 Primeiramente, você pode fazer um fork desse repositório aqui, para sua conta do Github, depois disso crie uma branch nova com o seu nome (ex: nome_sobrenome), para podermos indentificá-lo.
