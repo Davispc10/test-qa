@@ -1,6 +1,6 @@
 # <h1 align="center">Swag Labs</h1>
 
-> Automação do Front-end do Swag Labs realizada com o Robot Framework.
+> Automação Front-end do Swag Labs realizada com o Robot Framework.
 
 > Link do Swag Labs: [Swag Labs](https://www.saucedemo.com/)
 
