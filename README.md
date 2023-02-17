@@ -6,7 +6,7 @@
 
 ## Como instalar e rodar a aplicação
 
-+ Instalar o Python e colocar nas variáveis de ambiente;
++ Instalar o [Python](https://www.python.org/downloads/) e colocar nas variáveis de ambiente;
 
 + Para instalar o Robot Framework é preciso digitar no prompt de comando: pip install robotframework;
 
