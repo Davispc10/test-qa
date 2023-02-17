@@ -16,7 +16,9 @@
 
 + Extrair o arquivo e colocar dentro da pasta Scripts do python (esse caminho já foi configurado nas variáveis de ambiente com a instalação do python);
 
-+ Instalar o Visual Studio code e adicionar as extensões "Robot Framework Language Server" e "Python";
++ Instalar o Visual Studio Code e adicionar as extensões "Robot Framework Language Server" e "Python";
+
++ Abrir a pasta do projeto com o Visual Studio Code;
 
 + Abrir o caminho \tests\end-to-end\web\dois_ponto_zero\swag_tests.robot e clicar no play ao lado do nome "Teste de Cadastro Swag com Sucesso";
 
