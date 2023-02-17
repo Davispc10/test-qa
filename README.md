@@ -12,7 +12,7 @@
 
 + Para instalar a biblioteca do Selenium é preciso digitar no prompt de comando: pip install robotframework-seleniumlibrary;
 
-+ As configurações do projeto foram feitas para o chrome, com isso é preciso baixar o [Chrome Driver](https://chromedriver.chromium.org/downloads) com a versão igual a do seu navegador (basta olhar nas configurações do chrome);
++ As configurações do projeto foram feitas para o chrome, com isso é preciso baixar o [Chrome Driver](https://chromedriver.chromium.org/downloads) com a mesma versão do navegador (basta olhar nas configurações do chrome);
 
 + Extrair o arquivo e colocar dentro da pasta Scripts do python (esse caminho já foi configurado nas variáveis de ambiente com a instalação do python);
 
