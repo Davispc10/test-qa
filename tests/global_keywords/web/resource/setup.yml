@@ -1,0 +1,8 @@
+WAIT_MAX:                 35000  
+
+#vinicius login
+URL:                      https://www.saucedemo.com
+USUARIO:                  standard_user
+SENHA:                    secret_sauce
+USUARIOERRADO:            errado
+SENHAERRADA:              errado
