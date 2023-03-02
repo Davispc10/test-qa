@@ -1,0 +1,14 @@
+input_login: 
+  web:
+    selector: css=
+    value: input[id=user-name]
+
+input_senha:
+  web:
+    selector: css=
+    value: input[id=password]
+
+button_login:
+  web:
+    selector: css=
+    value: input[id=login-button]     

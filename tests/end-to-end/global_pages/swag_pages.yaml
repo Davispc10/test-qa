@@ -1,0 +1,70 @@
+button_add_to_cart_backpack: 
+  web:
+    selector: css=
+    value: button[id=add-to-cart-sauce-labs-backpack]
+
+button_add_to_cart_tshirt: 
+  web:
+    selector: css=
+    value: button[id=add-to-cart-sauce-labs-bolt-t-shirt]
+
+button_cart:
+  web:
+    selector: xpath=
+    value: //div[@id="shopping_cart_container"]
+
+button_remove_bolt_tshirt:
+  web:
+    selector: css=
+    value: button[id=remove-sauce-labs-bolt-t-shirt]
+
+button_continue_shopping:
+  web:
+    selector: css=
+    value: button[id=continue-shopping]
+
+button_add_to_cart_fleece_jacket: 
+  web:
+    selector: css=
+    value: button[id=add-to-cart-sauce-labs-fleece-jacket]
+
+button_cart:
+  web:
+    selector: xpath=
+    value: //div[@id="shopping_cart_container"]
+
+button_checkout: 
+  web:
+    selector: css=
+    value: button[id=checkout]
+
+input_name: 
+  web:
+    selector: css=
+    value: input[id=first-name]
+
+input_last_name: 
+  web:
+    selector: css=
+    value: input[id=last-name]
+  
+input_postal_code: 
+  web:
+    selector: css=
+    value: input[id=postal-code]
+
+button_continue: 
+  web:
+    selector: css=
+    value: input[id=continue]
+  
+button_finish: 
+  web:
+    selector: css=
+    value: button[id=finish]
+
+button_back_home: 
+  web:
+    selector: css=
+    value: button[id=back-to-products]
+

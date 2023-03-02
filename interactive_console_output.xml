@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.10.8 on win32)" generated="20230130 17:22:26.655" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\vinicius.aires\.vscode\extensions\robocorp.robotframework-lsp-1.8.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Dado">
+<arg>Que Esteja No Site</arg>
+<msg timestamp="20230130 17:22:27.983" level="FAIL">No keyword with name 'Dado' found.</msg>
+<status status="FAIL" starttime="20230130 17:22:27.983" endtime="20230130 17:22:27.983"/>
+</kw>
+<kw name="Quando">
+<arg>Login com sucesso</arg>
+<status status="NOT RUN" starttime="20230130 17:22:27.986" endtime="20230130 17:22:27.986"/>
+</kw>
+<kw name="Então">
+<arg>Validando Teste Com Login Com Sucesso</arg>
+<status status="NOT RUN" starttime="20230130 17:22:27.987" endtime="20230130 17:22:27.988"/>
+</kw>
+<status status="PASS" starttime="20230130 17:22:26.674" endtime="20230130 17:22:28.734"/>
+</kw>
+<status status="PASS" starttime="20230130 17:22:26.674" endtime="20230130 17:22:28.734"/>
+</test>
+<status status="PASS" starttime="20230130 17:22:26.657" endtime="20230130 17:22:28.735"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
