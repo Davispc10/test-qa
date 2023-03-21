@@ -1,0 +1,27 @@
+{
+  "name": "desafio-saucedemo",
+  "version": "1.0.0",
+  "description": "Automação E2E de fluxo de compras no site saucedemo",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leolpc21/test-qa.git"
+  },
+  "keywords": [
+    "e2e",
+    "cypress",
+    "automacao"
+  ],
+  "author": "Leonardo Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leolpc21/test-qa/issues"
+  },
+  "homepage": "https://github.com/leolpc21/test-qa#readme",
+  "devDependencies": {
+    "cypress": "^12.8.1"
+  }
+}
