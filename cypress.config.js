@@ -8,6 +8,9 @@ module.exports = defineConfig({
     viewportHeight: 1080,
     viewportWidth: 1920,
     experimentalRunAllSpecs: true,
-    video: false
+    video: false,
+    env: {
+      hideXhr: true
+    }
   },
 });
