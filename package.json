@@ -16,11 +16,7 @@
     "automacao"
   ],
   "author": "Leonardo Costa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/leolpc21/test-qa/issues"
-  },
-  "homepage": "https://github.com/leolpc21/test-qa#readme",
+  "license": "MIT",
   "devDependencies": {
     "cypress": "^12.8.1"
   }
