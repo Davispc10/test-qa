@@ -58,12 +58,20 @@ class InventoryPage {
 
   openCart() {
     cy.get(el.buttonCart).click()
+    cy.url().should('be.equal', Cypress.config().baseUrl + '/cart.html')
   }
 
   selectFilter(filter) {
     cy.get(el.selectFilter).select(filter)
   }
 
+  addFirstItem() {
+    cy.get(el.listInventory)
+      .find(el.buttonAddCart)
+      .first()
+      .should('contain.text', 'Add to cart')
+      .click()
+  }
 }
 
 export default new InventoryPage()

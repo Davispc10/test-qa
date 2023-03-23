@@ -1,12 +1,14 @@
 {
-  "name": "desafio-saucedemo",
+  "name": "desafio-dinheirow",
   "version": "1.0.0",
-  "description": "Automação E2E de fluxo de compras no site saucedemo",
+  "description": "Automação E2E. Fluxo de compras no site saucedemo",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open",
+    "cy:open": "npx cypress open",
     "cy:alltest": "npx cypress run --browser chrome --spec cypress/e2e/*",
-    "cy:logintest": "npx cypress run --browser chrome --spec cypress/e2e/login_test.cy.js"
+    "cy:logintest": "npx cypress run --browser chrome --spec cypress/e2e/login_test.cy.js",
+    "cy:inventorytest": "npx cypress run --browser chrome --spec cypress/e2e/inventory_test.cy.js",
+    "cy:shoppingflowtest": "npx cypress run --browser chrome --spec cypress/e2e/shoppingFlow_test.cy.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +22,8 @@
   "author": "Leonardo Costa",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^12.8.1"
+    "cypress": "^12.8.1",
+    "faker": "^5.5.3"
   },
   "dependencies": {
     "cypress-plugin-xhr-toggle": "^1.0.0"

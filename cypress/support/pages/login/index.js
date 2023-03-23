@@ -22,7 +22,6 @@ class LoginPage {
   messageError(message) {
     cy.get(el.messageError).should('contain.text', message)
   }
-
 }
 
 export default new LoginPage()
